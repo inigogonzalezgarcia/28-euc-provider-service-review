@@ -1,0 +1,116 @@
+{
+  "customer": "Northwind Traders",
+  "provider": "Litware",
+  "currency": "€",
+  "provider_teams": [
+    "Litware Onsite Madrid",
+    "Litware Onsite Milan",
+    "Litware Onsite Lisbon"
+  ],
+  "offshore_teams": [
+    "Litware Service Desk (Bengaluru)"
+  ],
+  "internal_teams": [
+    "Workplace Engineering",
+    "Network",
+    "Identity & M365",
+    "Business Applications"
+  ],
+  "business_hours": {
+    "start": "08:00",
+    "end": "20:00",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "holidays": [],
+  "sla": {
+    "P1": {
+      "response_min": 15,
+      "resolve_hours": 4,
+      "pct": 95,
+      "business_hours": false
+    },
+    "P2": {
+      "response_min": 30,
+      "resolve_hours": 8,
+      "pct": 95,
+      "business_hours": false
+    },
+    "P3": {
+      "response_min": 240,
+      "resolve_hours": 24,
+      "pct": 90,
+      "business_hours": true
+    },
+    "P4": {
+      "response_min": 480,
+      "resolve_hours": 72,
+      "pct": 90,
+      "business_hours": true
+    }
+  },
+  "request_sla": {
+    "P1": {
+      "response_min": 60,
+      "resolve_hours": 8,
+      "pct": 90,
+      "business_hours": true
+    },
+    "P2": {
+      "response_min": 240,
+      "resolve_hours": 24,
+      "pct": 90,
+      "business_hours": true
+    },
+    "P3": {
+      "response_min": 480,
+      "resolve_hours": 40,
+      "pct": 90,
+      "business_hours": true
+    },
+    "P4": {
+      "response_min": 480,
+      "resolve_hours": 80,
+      "pct": 90,
+      "business_hours": true
+    }
+  },
+  "ola": {
+    "Workplace Engineering": 16,
+    "Network": 8,
+    "Identity & M365": 8
+  },
+  "ola_pct": 90,
+  "escalation_rate_max": 15,
+  "reopen_rate_max": 5,
+  "fcr_min": 65,
+  "csat_min": 4.2,
+  "csat_low": 2,
+  "backlog_max_days": 30,
+  "stale_days": 7,
+  "monthly_fee": 48000,
+  "credits": [
+    [
+      5,
+      2
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      20,
+      10
+    ]
+  ],
+  "credits_cap": 10,
+  "baseline_volume": 1100,
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "as_of": "2026-10-22"
+}
